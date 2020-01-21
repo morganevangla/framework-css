@@ -1,0 +1,26 @@
+.img-responsive
+{
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+.img-rounded
+{
+	border-radius: 10px;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-blur {
+     filter:blur(3px);
+}
+.img-thumbnail {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 7px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}

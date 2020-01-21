@@ -1,0 +1,24 @@
+
+$ecran: ("xs": $xs-min,"sm": $sm-min,"md": $md-min,"lg": $lg-min);
+[class*='col-'] {
+  float: left;
+  padding-left: $padcol;
+  padding-right: $padcol;
+ 
+}   
+@each $container, $size in $ecran
+{
+  @media (min-width: #{$size})
+  {
+    @for $i from 1 through $gridsize
+    {
+      .col-#{$container}-#{$i}
+      {
+        width:  ( $i /$gridsize ) *100%;
+        flex:  ( $i /$gridsize ) *100% ;
+        
+       
+      }
+    }
+  }
+}

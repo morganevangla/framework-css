@@ -1,0 +1,116 @@
+[class*='visible-'] {
+    display: none !important;
+  } 
+  @media (min-width: $xs-min) AND (max-width: $xsMax)
+  {
+      .visible-xs {
+           display: block !important;
+      }
+       .visible-xs-block {
+        display: block !important;
+      }
+      .visible-xs-inline-block {
+        display: block !important;
+      }
+      .visible-xs-inline {
+        display: block !important;
+      }
+  }
+  @media (min-width: $md-min) AND (max-width: $mdMax)
+  {
+    .visible-md {
+      display: block !important;
+    }
+     .visible-md-block {
+      display: block !important;
+    }
+    .visible-md-inline-block {
+      display: block !important;
+    }
+    .visible-md-inline {
+      display: block !important;
+    }
+  }
+  @media (min-width: $sm-min) AND (max-width: $smMax)
+  {
+    .visible-sm {
+      display: block !important;
+    }
+     .visible-sm-block {
+      display: block !important;
+    }
+    .visible-sm-inline-block {
+      display: block !important;
+    }
+    .visible-sm-inline {
+      display: block !important;
+    }
+  }
+  @media (min-width: $lg-min)
+  {
+    .visible-lg {
+      display: block !important;
+    }
+     .visible-lg-block {
+      display: block !important;
+    }
+    .visible-lg-inline-block {
+      display: block !important;
+    }
+    .visible-lg-inline {
+      display: block !important;
+    }
+  }
+  @media (min-width: $xs-min) AND (max-width: $xsMax)
+  {
+    .hidden-xs {
+      display: none !important;
+    }
+  }
+  @media (min-width: $sm-min) AND (max-width: $smMax)
+  {
+    .hidden-sm {
+      display: none !important;
+    }
+  }
+  @media (min-width: $md-min) AND (max-width: $mdMax)
+  {
+    .hidden-md {
+      display: none !important;
+    }
+  }
+  @media (min-width: $lg-min)
+  {
+    .hidden-lg {
+      display: none !important;
+    }
+  }
+  @media print {
+    .visible-print {
+      display: block !important;
+    }
+  }
+  .visible-print-block {
+    display: none !important;
+  }
+  @media print {
+    .visible-print-block {
+      display: block !important;
+    }
+  }
+  .visible-print-inline {
+    display: none !important;
+  }
+  @media print {
+    .visible-print-inline {
+      display: inline !important;
+    }
+  }
+  .visible-print-inline-block {
+    display: none !important;
+  }
+  @media print {
+    .visible-print-inline-block {
+      display: inline-block !important;
+    }
+  }
